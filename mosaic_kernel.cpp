@@ -62,3 +62,9 @@ extern "C" void kernel_main() {
 
     while(1); // Mantém o sistema vivo
 }
+
+void run_terminal() {
+    char* prompt = "arkalpy@user:# ";
+    unsigned char color_terminal = 0x0A; // Verde Matrix (diferente do resto)
+    
+}
