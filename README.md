@@ -91,6 +91,14 @@ Direito de Autoria: O nome do criador deve permanecer no topo dos arquivos e na 
 ├── iso_manager.py      # [Python] Gerador de ISO
 └── link.ld             # [Linker] Mapa da Memória RAM
 <p align="center">
+  O ARkalpyOS utiliza uma segmentação de memória rígida para garantir a performance Bare-Metal:
+
+| Endereço Inicial | Tamanho | Função |
+| :--- | :--- | :--- |
+| `0x00007C00` | 512 B | Bootloader (Assembly Entry) |
+| `0x00001000` | 64 KB | Kernel Stack (C++) |
+| `0x000B8000` | 4 KB | VGA Text Buffer (Mosaic Display) |
+| `0x00100000` | 1 MB+ | Safety Core (Rust Protected Area) |
 <b>ARkalpyOS - Criado por [UserNight26]</b>
 
 
