@@ -17,6 +17,31 @@
 <img src="https://img.shields.io/badge/LICENSE-AUTHOR_CREDIT_REQUIRED-white?style=for-the-badge" />
 </p>
 
+📂 Estrutura do Projeto (ARkalpyOS File Tree)
+ARkalpyOS/
+|
+|-- boot/ (Código de Inicialização)
+|   |-- boot_entry.asm (Assembly - O despertar do hardware)
+|   |-- linker.ld (O mapa de memória do sistema)
+|
+|-- kernel/ (O Coração do Mosaico)
+|   |-- mosaic_kernel.cpp (C++ - Interface e Lógica Central)
+|   |-- safety_core.rs (Rust - Proteção de Memória)
+|
+|-- drivers/ (Interação com Hardware)
+|   |-- disk_wipe.c (C - Módulo de limpeza de setores)
+|
+|-- apps/ (Programas do Sistema)
+|   |-- calculator_fpu.cs (C# - Aplicação de Cálculos)
+|
+|-- tools/ (Scripts de Construção)
+|   |-- build_system.pl (Perl - O Orquestrador de Compilação)
+|   |-- iso_manager.py (Python - Gerador de Imagem ISO)
+|
+|-- docs/ (Documentação)
+|   |-- architecture.md (Explicação das 7 linguagens)
+|
+
 📖 1. A FILOSOFIA SUPREMA
 O ARkalpyOS é um sistema operacional purista desenvolvido para controle total do hardware. Ele funde a estética geométrica de mosaicos (Tiled UI) com a robustez de um núcleo focado em terminal. Aqui, não existem abstrações desnecessárias: o usuário domina a máquina através de scripts e comandos diretos.
 
