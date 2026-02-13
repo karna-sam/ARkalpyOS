@@ -1,6 +1,10 @@
-Aqui está o código completo do seu README.md. Ele foi desenhado para ser visualmente impactante, técnico e deixar claro que você é o autor.
 
-Basta copiar o conteúdo abaixo e colar no seu arquivo do GitHub:
+<p align="center">
+  <img src="https://img.shields.io/github/stars/SEU-USUARIO/SEU-REPO?style=for-the-badge&color=gold" />
+  <img src="https://img.shields.io/github/forks/SEU-USUARIO/SEU-REPO?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/badge/Language-7_Polyglot-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-x86_Architecture-red?style=for-the-badge" />
+</p>
 
 <p align="center"> 🌌 ARKALPY-OS: THE POLYGLOT BARE-METAL ARCHITECTURE 🌌 </p>
 <p align="center">
