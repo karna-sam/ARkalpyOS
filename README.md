@@ -99,6 +99,7 @@ Direito de Autoria: O nome do criador deve permanecer no topo dos arquivos e na 
 | `0x00001000` | 64 KB | Kernel Stack (C++) |
 | `0x000B8000` | 4 KB | VGA Text Buffer (Mosaic Display) |
 | `0x00100000` | 1 MB+ | Safety Core (Rust Protected Area) |
+
 <b>ARkalpyOS - Criado por [UserNight26]</b>
 
 
