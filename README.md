@@ -60,6 +60,15 @@ Chuva de Números: Ao ligar, milhares de códigos hexadecimais sobem na tela pre
 
 Limpador de Disco: O sistema possui uma ferramenta integrada de Limpeza Profunda. Ao ser acionada, ela sobrescreve qualquer sistema anterior (Windows, Linux ou outros) com zeros, exibindo o progresso técnico em tempo real.
 
+graph TD
+    A[Boot em Assembly] --> B[Kernel em C++]
+    B --> C{Mosaic Engine}
+    C --> D[App em C#]
+    C --> E[Wipe Tool em C]
+    F[Rust Safety Layer] -.->|Protege| B
+    G[Perl Build System] -->|Orquestra| A
+    H[Python ISO Creator] -->|Gera| ISO[arkalpy.iso]
+
 🖥️ 4. INTERFACE MOSAIC (TILED UI)
 Inspirada em designs clássicos, mas totalmente original. A tela é dividida em mosaicos fixos:
 
