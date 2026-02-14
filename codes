@@ -1,0 +1,9 @@
+ARKALPY-OS/
+├── src/                # Todo o código fonte que criamos
+├── drivers/            # Drivers de mouse, teclado, disco
+├── bin/                # Onde os arquivos compilados vão ficar
+├── iso_root/           # Pasta temporária para montar a ISO
+│   └── boot/
+│       └── grub/       # Menu de inicialização (Bootloader)
+├── Makefile            # O roteiro de compilação
+└── build_iso.sh        # O script que gera a ISO final
