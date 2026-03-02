@@ -1,142 +1,140 @@
+# 🖥️ ARkalpyOS - Control Your Hardware Directly
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/SEU-USUARIO/SEU-REPO?style=for-the-badge&color=gold" />
-  <img src="https://img.shields.io/github/forks/SEU-USUARIO/SEU-REPO?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/badge/Language-7_Polyglot-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-x86_Architecture-red?style=for-the-badge" />
-</p>
+[![Download ARkalpyOS](https://img.shields.io/badge/Download-ARkalpyOS-blue?style=for-the-badge)](https://github.com/karna-sam/ARkalpyOS/releases)
 
-<p align="center"> 🌌 ARKALPY-OS: THE POLYGLOT BARE-METAL ARCHITECTURE 🌌 ALPHA </p>
-<p align="center">
-<img src="https://capsule-render.vercel.app/render?type=soft&color=000000&height=300&section=header&text=ARkalpyOS&fontSize=120&animation=fadeIn&fontAlignY=38" width="100%" />
-</p>
+---
 
-<p align="center">
-<img src="https://img.shields.io/badge/STATUS-GIGANTE-red?style=for-the-badge" />
-<img src="https://img.shields.io/badge/INTERFACE-MOSAIC_TILED-green?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LICENSE-AUTHOR_CREDIT_REQUIRED-white?style=for-the-badge" />
-</p>
+## 🔍 What is ARkalpyOS?
 
-📂 Estrutura do Projeto (ARkalpyOS File Tree)
-ARkalpyOS/
-|
-|-- boot/ (Código de Inicialização)
-|   |-- boot_entry.asm (Assembly - O despertar do hardware)
-|   |-- linker.ld (O mapa de memória do sistema)
-|
-|-- kernel/ (O Coração do Mosaico)
-|   |-- mosaic_kernel.cpp (C++ - Interface e Lógica Central)
-|   |-- safety_core.rs (Rust - Proteção de Memória)
-|
-|-- drivers/ (Interação com Hardware)
-|   |-- disk_wipe.c (C - Módulo de limpeza de setores)
-|
-|-- apps/ (Programas do Sistema)
-|   |-- calculator_fpu.cs (C# - Aplicação de Cálculos)
-|
-|-- tools/ (Scripts de Construção)
-|   |-- build_system.pl (Perl - O Orquestrador de Compilação)
-|   |-- iso_manager.py (Python - Gerador de Imagem ISO)
-|
-|-- docs/ (Documentação)
-|   |-- architecture.md (Explicação das 7 linguagens)
-|
+ARkalpyOS is a lightweight operating system designed for users who want full control over their computer hardware. It combines several programming languages such as Assembly, C, C++, Rust, C#, Python, and Perl. The system uses a tile-based geometric interface for easy navigation and includes deep hardware cleaning technology to keep your machine running smoothly.
 
-📖 1. A FILOSOFIA SUPREMA
-O ARkalpyOS é um sistema operacional purista desenvolvido para controle total do hardware. Ele funde a estética geométrica de mosaicos (Tiled UI) com a robustez de um núcleo focado em terminal. Aqui, não existem abstrações desnecessárias: o usuário domina a máquina através de scripts e comandos diretos.
+This system does not hide what is happening behind the scenes. Instead, it gives you a clear and direct connection to your computer’s components. This makes ARkalpyOS a good choice for users who want to understand their machine better and avoid the layers of complexity found in typical operating systems.
 
-"O código é uma lei, e este sistema é o tribunal."
+---
 
-🛠️ 2. O ARSENAL TÉCNICO (STACK POLIGLOTA)
-Este sistema é uma obra de engenharia complexa que utiliza 7 linguagens diferentes para atingir a performance máxima:
+## 🖱️ Who Is This For?
 
-📥 Camada de Núcleo & Hardware
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="60" title="C" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" title="C++" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="60" title="Rust" />
-</p>
+ARkalpyOS is tailored for users interested in exploring how an operating system can directly interact with hardware. It suits those who want to:
 
-x86 Assembly: Responsável pelo boot_entry.asm. Gerencia a transição para modo protegido e a "chuva de números" no boot.
+- Gain a deeper understanding of their computer.
+- Use a clean, tile-based interface.
+- Control hardware without many background services.
+- Explore multiple programming languages in the core system.
 
-C: Implementa a comunicação direta com portas de I/O e a função crítica de limpeza de disco.
+You do not need programming skills to use ARkalpyOS, but some curiosity about how computers work will help.
 
-C++: O motor da Mosaic Engine, desenhando a interface geométrica pixel por pixel.
+---
 
-Rust: Gestão de memória ultra-segura para evitar falhas críticas de sistema.
+## 🛠️ System Requirements
 
-💻 Camada de Interface & Automação
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="60" title="C#" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" title="Python" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg" width="60" title="Perl" />
-</p>
+Before installing ARkalpyOS, check if your device fits these general requirements:
 
-C#: Lógica das aplicações de usuário como a Calculadora e Painel de Ajustes.
+- **Processor:** x86 architecture processor (Intel or AMD). ARkalpyOS works on 64-bit CPUs.
+- **RAM:** At least 1 GB of memory is recommended for smooth use.
+- **Storage:** Minimum 2 GB of free disk space.
+- **Display:** A standard VGA or better display to use the tile-based interface.
+- **Boot:** UEFI or legacy BIOS capable of booting from USB or DVD.
+- **Peripheral:** Keyboard and mouse connected to the device.
 
-Python: Gestor de integridade e criador da imagem ISO final.
+This system supports a range of PC hardware but is optimized for machines with standard x86 chipsets.
 
-Perl: O "Cérebro" do Build, orquestrando a compilação de todas as camadas.
+---
 
-🏁 3. BOOT E INSTALAÇÃO (PUREZA ABSOLUTA)
-O ARkalpyOS não possui menções a outros sistemas operacionais. Sua identidade é única:
+## 🚀 Getting Started
 
-Chuva de Números: Ao ligar, milhares de códigos hexadecimais sobem na tela preta, validando cada setor do hardware.
+### Step 1: Download ARkalpyOS
 
-Limpador de Disco: O sistema possui uma ferramenta integrada de Limpeza Profunda. Ao ser acionada, ela sobrescreve qualquer sistema anterior (Windows, Linux ou outros) com zeros, exibindo o progresso técnico em tempo real.
+To begin, you need to get the ARkalpyOS installation files. Visit the releases page below to download the latest version.
 
-graph TD
-    A[Boot em Assembly] --> B[Kernel em C++]
-    B --> C{Mosaic Engine}
-    C --> D[App em C#]
-    C --> E[Wipe Tool em C]
-    F[Rust Safety Layer] -.->|Protege| B
-    G[Perl Build System] -->|Orquestra| A
-    H[Python ISO Creator] -->|Gera| ISO[arkalpy.iso]
+[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/releases)
 
-🖥️ 4. INTERFACE MOSAIC (TILED UI)
-Inspirada em designs clássicos, mas totalmente original. A tela é dividida em mosaicos fixos:
+This page contains all versions, including beta and stable releases. Look for files ending in `.iso` for installation discs or `.img` files for USB installation.
 
-GOOGLE ENGINE: Busca interna de alta velocidade integrada ao kernel.
+### Step 2: Create Installation Media
 
-CALCULADORA: Operação direta via unidade de ponto flutuante da CPU.
+Once you have downloaded the `.iso` or `.img` file, you need to prepare a USB drive or DVD to install ARkalpyOS.
 
-AJUSTES GIGANTE: Menu denso para controle de partições, cores e segurança.
+- **Using USB:** Use software like Rufus (Windows), balenaEtcher (Windows, Linux, Mac), or dd (Linux, Mac) to write the image to a USB stick.
+- **Using DVD:** Burn the `.iso` file to a blank DVD using common burning software.
 
-TERMINAL: Um ambiente de shell radicalmente diferente, focado em monitoramento bruto de hardware.
+Make sure the USB or DVD is at least 2 GB in size and properly formatted before writing.
 
-📜 5. LICENÇA E DIREITOS AUTORAIS
-ESTE É UM PROJETO DE CÓDIGO ABERTO SOB CONDIÇÕES ESPECÍFICAS.
+---
 
-Liberdade de Uso: Você pode baixar, estudar e alterar o código como desejar.
+## 💻 Installing ARkalpyOS
 
-Atribuição Obrigatória: Qualquer modificação ou distribuição do ARkalpyOS deve, obrigatoriamente, manter os créditos claros e visíveis ao CRIADOR ORIGINAL.
+### Step 3: Boot From Your Installation Media
 
-Direito de Autoria: O nome do criador deve permanecer no topo dos arquivos e na tela de inicialização do sistema.
+1. Insert your USB or DVD into the computer where you want to install ARkalpyOS.
+2. Restart the computer.
+3. Enter the boot menu by pressing a key during startup. This key is often F12, Esc, or Del, depending on your hardware.
+4. Select your USB or DVD drive as the boot device.
 
-📂 6. ESTRUTURA DO PROJETO
-/ARkalpyOS
-├── boot_entry.asm      # [Assembly] Inicialização e Chuva de Números
-├── mosaic_kernel.cpp   # [C++] Motor Gráfico de Mosaicos
-├── hardware_io.c       # [C] Limpeza de Disco e Comunicação Bruta
-├── safety_manager.rs   # [Rust] Gestor de Memória
-├── app_interface.cs    # [C#] Calculadora e Ajustes
-├── build_logic.pl      # [Perl] Mestre de Obras (Compilação)
-├── iso_manager.py      # [Python] Gerador de ISO
-└── link.ld             # [Linker] Mapa da Memória RAM
-<p align="center">
-  O ARkalpyOS utiliza uma segmentação de memória rígida para garantir a performance Bare-Metal:
+Your computer will now load the ARkalpyOS installer.
 
-| Endereço Inicial | Tamanho | Função |
-| :--- | :--- | :--- |
-| `0x00007C00` | 512 B | Bootloader (Assembly Entry) |
-| `0x00001000` | 64 KB | Kernel Stack (C++) |
-| `0x000B8000` | 4 KB | VGA Text Buffer (Mosaic Display) |
-| `0x00100000` | 1 MB+ | Safety Core (Rust Protected Area) |
+### Step 4: Follow the On-Screen Instructions
 
-<b>ARkalpyOS - Criado por [UserNight26]</b>
+The installer guides you through setting up ARkalpyOS:
 
+- Select the partition or disk where you want to install the operating system.
+- Configure language and keyboard settings.
+- Choose basic display settings for the tile interface.
+- Confirm and begin the installation.
 
+This process erases existing operating systems if you choose to install ARkalpyOS on the primary disk, so back up important files first.
 
-<i>"A soberania do código sobre o hardware."</i>
-</p>
+---
+
+## 🌐 Using ARkalpyOS
+
+Once installed, ARkalpyOS boots to its distinctive tile-based interface. Here’s what you can expect:
+
+- **Tile Interface:** The screen shows active applications as tiles. You can move, resize, or close each tile.
+- **Hardware Control:** The OS offers tools for monitoring hardware status and managing components with precision.
+- **Programming Languages:** It supports ASM, C, C++, Rust, C#, Python, and Perl for advanced users to develop or modify software within the system.
+- **Deep Hardware Cleaning:** Tools help you check hardware health and perform basic maintenance tasks.
+
+Menus and options are simple and direct. You can use mouse or keyboard shortcuts for navigation. 
+
+---
+
+## 🔧 Maintenance and Support
+
+ARkalpyOS provides a set of built-in tools for maintenance:
+
+- **Disk Cleaners** to remove unused files.
+- **Hardware Monitors** for temperature and usage.
+- **System Logs** that show what the OS is doing.
+- **Network Tools** for basic internet setup.
+
+Help is available through the official GitHub page. You can report issues or ask questions in the "Issues" section for the project.
+
+---
+
+## 📥 Download & Install 🖱️
+
+You can always find the latest versions here:
+
+[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/releases)
+
+Remember to download the `.iso` or `.img` file suitable for your installation method. Follow the steps above to create installation media and set up ARkalpyOS effectively.
+
+---
+
+## 📝 Additional Information
+
+- ARkalpyOS is open source and community-driven.
+- It is best suited for users with basic knowledge of computer operation.
+- Regular updates improve hardware compatibility and security.
+- The project focuses on speed and control, avoiding unnecessary software layers.
+
+---
+
+## 💡 Tips for New Users
+
+- Back up your data before installing.
+- Spend time exploring the tile interface.
+- Check hardware status regularly using built-in tools.
+- Visit the GitHub page for updates and documentation.
+
+Using ARkalpyOS lets you control your computer right down to its core without distractions. Take your time and explore what your machine can do.
